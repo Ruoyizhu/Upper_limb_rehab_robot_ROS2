@@ -1,0 +1,10 @@
+safety_monitor_node:
+  ros__parameters:
+    joint1_position_min: -3.14
+    joint1_position_max: 3.14
+    joint2_position_min: -2.0
+    joint2_position_max: 2.0
+    joint1_torque_limit: 50.0
+    joint2_torque_limit: 30.0
+    joint1_velocity_limit: 3.0
+    joint2_velocity_limit: 2.0

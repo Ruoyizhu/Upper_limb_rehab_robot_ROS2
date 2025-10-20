@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description",
+    "files.associations": {
+        "chrono": "cpp"
+    }
+}
