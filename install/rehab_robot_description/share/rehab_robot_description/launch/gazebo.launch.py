@@ -57,7 +57,7 @@ def generate_launch_description():
         arguments=[
             '-entity', 'rehab_robot',
             '-topic', 'robot_description',
-            '-x', '0.0', '-y', '0.0', '-z', '1.0',  # 提高Z坐标确保可见
+            '-x', '0.0', '-y', '0.0', '-z', '0.0',  # 提高Z坐标确保可见
             '-R', '0.0', '-P', '0.0', '-Y', '0.0'
         ],
         output='screen'
