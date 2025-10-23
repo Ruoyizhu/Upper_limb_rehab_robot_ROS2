@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""
-安全监控系统ROS2启动文件
-该文件用于启动安全监控节点，并加载相应的配置参数
-主要功能：初始化安全监控节点、加载参数文件、配置节点行为
-"""
+# """
+# 安全监控系统ROS2启动文件
+# 该文件用于启动安全监控节点，并加载相应的配置参数
+# 主要功能：初始化安全监控节点、加载参数文件、配置节点行为
+# """
 
 # 导入操作系统接口模块，用于文件路径操作
 import os
@@ -84,9 +84,9 @@ if __name__ == '__main__':
     print("该文件应使用 'ros2 launch' 命令运行:")
     print("ros2 launch safety_monitor safety_monitor.launch.py")
     
-    # 可选：在此添加简单的功能测试代码
-    # 例如验证参数文件是否存在
-    if os.path.exists(params_file):
-        print(f"参数文件路径正确: {params_file}")
-    else:
-        print(f"警告: 参数文件不存在: {params_file}")
+    # # 可选：在此添加简单的功能测试代码
+    # # 例如验证参数文件是否存在
+    # if os.path.exists(params_file):
+    #     print(f"参数文件路径正确: {params_file}")
+    # else:
+    #     print(f"警告: 参数文件不存在: {params_file}")

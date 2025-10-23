@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-"""
-康复机器人控制节点启动文件
-功能：用于启动康复机器人系统的核心控制节点
-作者：Your Name
-日期：2024-01-01
-版本：1.0
-"""
+# """
+# 康复机器人控制节点启动文件
+# 功能：用于启动康复机器人系统的核心控制节点
+# 作者：Your Name
+# 日期：2024-01-01
+# 版本：1.0
+# """
 
 import os  # 提供与操作系统交互的功能，用于文件路径操作和系统环境变量访问[3](@ref)
 from ament_index_python.packages import get_package_share_directory  # 从ament_index_python包导入函数，用于获取ROS 2功能包的共享目录路径[6](@ref)
