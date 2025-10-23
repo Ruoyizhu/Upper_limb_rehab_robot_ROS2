@@ -9,7 +9,7 @@
  * @date 2025-10-23
  * @version 1.0
  * 
- * @copyright Copyright (c) 2025 康复机器人项目组
+ * @copyright Copyright (c) 2025 ..
  */
 
 #include "rehab_robot_control/bowl_ball_dynamics.hpp"

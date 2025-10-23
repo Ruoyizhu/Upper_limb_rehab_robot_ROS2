@@ -8,9 +8,7 @@
  * 3. 发布控制命令到执行器
  * 4. 提供可视化数据用于监控
  * 
- * @author 康复机器人开发团队
- * @date 2025-10-23
- * @version 1.0
+ * @author 
  */
 
 #include "rehab_robot_control/bowl_ball_dynamics.hpp"  // 碗-小球动力学模型头文件
@@ -256,7 +254,7 @@ private:
  * 1. 初始化ROS 2上下文
  * 2. 创建控制节点实例
  * 3. 进入主事件循环
- * 4. 优雅关闭ROS 2
+ * 4. 关闭ROS 2
  */
 int main(int argc, char * argv[])
 {
