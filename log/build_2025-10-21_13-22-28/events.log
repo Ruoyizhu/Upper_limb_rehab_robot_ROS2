@@ -1,0 +1,546 @@
+[0.000000] (-) TimerEvent: {}
+[0.000103] (rehab_robot_control) JobQueued: {'identifier': 'rehab_robot_control', 'dependencies': OrderedDict()}
+[0.000121] (rehab_robot_description) JobQueued: {'identifier': 'rehab_robot_description', 'dependencies': OrderedDict()}
+[0.000130] (safety_monitor) JobQueued: {'identifier': 'safety_monitor', 'dependencies': OrderedDict()}
+[0.000138] (simulation_integration_test) JobQueued: {'identifier': 'simulation_integration_test', 'dependencies': OrderedDict([('rehab_robot_control', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control'), ('rehab_robot_description', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description'), ('safety_monitor', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor')])}
+[0.000150] (rehab_robot_control) JobStarted: {'identifier': 'rehab_robot_control'}
+[0.009861] (rehab_robot_description) JobStarted: {'identifier': 'rehab_robot_description'}
+[0.016321] (rehab_robot_control) JobProgress: {'identifier': 'rehab_robot_control', 'progress': 'cmake'}
+[0.017442] (rehab_robot_control) Command: {'cmd': ['/usr/bin/cmake', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_control', '-DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control'], 'cwd': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'zephyrr1'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zephyrr1'), ('OLDPWD', '/home/zephyrr1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1667'), ('SYSTEMD_EXEC_PID', '1989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20156'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zephyrr1'), ('JOURNAL_STREAM', '8:24414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zephyrr1'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zephyrr1:@/tmp/.ICE-unix/1794,unix/zephyrr1:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', 'b1503b1b23c54be98576e7ada0ad2666'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OKKRE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:152b9bc1-29a3-457c-83bf-32e58539c19e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib/:'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', ':/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.024663] (rehab_robot_description) JobProgress: {'identifier': 'rehab_robot_description', 'progress': 'cmake'}
+[0.033018] (rehab_robot_description) JobProgress: {'identifier': 'rehab_robot_description', 'progress': 'build'}
+[0.033341] (rehab_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description', '--', '-j2', '-l2'], 'cwd': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'zephyrr1'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zephyrr1'), ('OLDPWD', '/home/zephyrr1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1667'), ('SYSTEMD_EXEC_PID', '1989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20156'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zephyrr1'), ('JOURNAL_STREAM', '8:24414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zephyrr1'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zephyrr1:@/tmp/.ICE-unix/1794,unix/zephyrr1:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', 'b1503b1b23c54be98576e7ada0ad2666'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OKKRE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:152b9bc1-29a3-457c-83bf-32e58539c19e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib/:'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', ':/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.099166] (-) TimerEvent: {}
+[0.145774] (rehab_robot_description) CommandEnded: {'returncode': 0}
+[0.151933] (rehab_robot_description) JobProgress: {'identifier': 'rehab_robot_description', 'progress': 'install'}
+[0.176628] (rehab_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description'], 'cwd': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'zephyrr1'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zephyrr1'), ('OLDPWD', '/home/zephyrr1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1667'), ('SYSTEMD_EXEC_PID', '1989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20156'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zephyrr1'), ('JOURNAL_STREAM', '8:24414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zephyrr1'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zephyrr1:@/tmp/.ICE-unix/1794,unix/zephyrr1:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', 'b1503b1b23c54be98576e7ada0ad2666'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OKKRE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:152b9bc1-29a3-457c-83bf-32e58539c19e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib/:'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', ':/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.202281] (rehab_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.203443] (-) TimerEvent: {}
+[0.205373] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/urdf/minimal_robot.urdf\n'}
+[0.205509] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description\n'}
+[0.205590] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/display.launch.py\n'}
+[0.205982] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/gazebo.launch.py\n'}
+[0.206116] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description\n'}
+[0.206199] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/minimal.rviz\xe2\x80\x8b\n'}
+[0.206271] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/controllers.yaml\n'}
+[0.206339] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/ament_index/resource_index/package_run_dependencies/rehab_robot_description\n'}
+[0.206405] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/ament_index/resource_index/parent_prefix_path/rehab_robot_description\n'}
+[0.206473] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/environment/ament_prefix_path.sh\n'}
+[0.206539] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/environment/ament_prefix_path.dsv\n'}
+[0.206602] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/environment/path.sh\n'}
+[0.206666] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/environment/path.dsv\n'}
+[0.209495] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/local_setup.bash\n'}
+[0.209793] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/local_setup.sh\n'}
+[0.209875] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/local_setup.zsh\n'}
+[0.209947] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/local_setup.dsv\n'}
+[0.210409] (rehab_robot_description) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/package.dsv\n'}
+[0.213729] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/ament_index/resource_index/packages/rehab_robot_description\n'}
+[0.214100] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/cmake/rehab_robot_descriptionConfig.cmake\n'}
+[0.214185] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/cmake/rehab_robot_descriptionConfig-version.cmake\n'}
+[0.219053] (rehab_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/package.xml\n'}
+[0.219418] (rehab_robot_description) CommandEnded: {'returncode': 0}
+[0.303630] (-) TimerEvent: {}
+[0.327567] (rehab_robot_description) JobEnded: {'identifier': 'rehab_robot_description', 'rc': 0}
+[0.331719] (safety_monitor) JobStarted: {'identifier': 'safety_monitor'}
+[0.361378] (safety_monitor) JobProgress: {'identifier': 'safety_monitor', 'progress': 'cmake'}
+[0.361598] (safety_monitor) Command: {'cmd': ['/usr/bin/cmake', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/safety_monitor', '-DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor'], 'cwd': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'zephyrr1'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zephyrr1'), ('OLDPWD', '/home/zephyrr1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1667'), ('SYSTEMD_EXEC_PID', '1989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20156'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zephyrr1'), ('JOURNAL_STREAM', '8:24414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zephyrr1'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zephyrr1:@/tmp/.ICE-unix/1794,unix/zephyrr1:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', 'b1503b1b23c54be98576e7ada0ad2666'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OKKRE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:152b9bc1-29a3-457c-83bf-32e58539c19e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib/:'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', ':/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.408421] (-) TimerEvent: {}
+[0.467729] (rehab_robot_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.508777] (-) TimerEvent: {}
+[0.567099] (safety_monitor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.609966] (-) TimerEvent: {}
+[0.712444] (-) TimerEvent: {}
+[0.804366] (safety_monitor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.805399] (rehab_robot_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.813430] (-) TimerEvent: {}
+[0.843246] (rehab_robot_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.843439] (safety_monitor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.914588] (-) TimerEvent: {}
+[1.015898] (-) TimerEvent: {}
+[1.046305] (safety_monitor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.064408] (safety_monitor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.067440] (safety_monitor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.070386] (safety_monitor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.084388] (safety_monitor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.121541] (-) TimerEvent: {}
+[1.131522] (rehab_robot_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.147105] (rehab_robot_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.150845] (rehab_robot_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.151035] (rehab_robot_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.160646] (rehab_robot_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.229393] (-) TimerEvent: {}
+[1.331001] (-) TimerEvent: {}
+[1.343677] (safety_monitor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.370283] (safety_monitor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.370885] (safety_monitor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.372269] (safety_monitor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.382499] (safety_monitor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.435326] (-) TimerEvent: {}
+[1.523294] (rehab_robot_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.537733] (-) TimerEvent: {}
+[1.540397] (rehab_robot_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.540880] (rehab_robot_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.542298] (rehab_robot_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.546999] (rehab_robot_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.641231] (-) TimerEvent: {}
+[1.699803] (safety_monitor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.741463] (-) TimerEvent: {}
+[1.822037] (rehab_robot_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.843939] (-) TimerEvent: {}
+[1.944540] (-) TimerEvent: {}
+[1.975155] (safety_monitor) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.978053] (rehab_robot_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.044801] (-) TimerEvent: {}
+[2.065850] (rehab_robot_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.067011] (safety_monitor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.074580] (safety_monitor) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.076572] (rehab_robot_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.092540] (rehab_robot_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.100152] (safety_monitor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.127797] (rehab_robot_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.128910] (safety_monitor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.146764] (-) TimerEvent: {}
+[2.158152] (rehab_robot_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.180678] (safety_monitor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.247347] (-) TimerEvent: {}
+[2.265092] (rehab_robot_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.275290] (rehab_robot_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.309420] (safety_monitor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.320148] (safety_monitor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.348053] (-) TimerEvent: {}
+[2.427794] (rehab_robot_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.450902] (-) TimerEvent: {}
+[2.518829] (rehab_robot_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.525517] (safety_monitor) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.551876] (-) TimerEvent: {}
+[2.581305] (safety_monitor) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.628874] (rehab_robot_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.645194] (safety_monitor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.652048] (-) TimerEvent: {}
+[2.656583] (safety_monitor) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.659854] (rehab_robot_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.753012] (-) TimerEvent: {}
+[2.805576] (rehab_robot_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.805780] (rehab_robot_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.822585] (safety_monitor) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.825913] (safety_monitor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.853427] (-) TimerEvent: {}
+[2.954133] (-) TimerEvent: {}
+[2.970970] (rehab_robot_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.975269] (rehab_robot_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.983094] (safety_monitor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.984692] (safety_monitor) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.054721] (-) TimerEvent: {}
+[3.106571] (safety_monitor) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.107569] (rehab_robot_control) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.155616] (-) TimerEvent: {}
+[3.176973] (rehab_robot_control) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.180621] (safety_monitor) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.191160] (rehab_robot_control) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.255739] (-) TimerEvent: {}
+[3.321013] (safety_monitor) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.333984] (safety_monitor) StdoutLine: {'line': b'-- Generating done\n'}
+[3.337246] (safety_monitor) StdoutLine: {'line': b'-- Build files have been written to: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor\n'}
+[3.347571] (safety_monitor) CommandEnded: {'returncode': 0}
+[3.348099] (safety_monitor) JobProgress: {'identifier': 'safety_monitor', 'progress': 'build'}
+[3.348139] (safety_monitor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor', '--', '-j2', '-l2'], 'cwd': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'zephyrr1'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zephyrr1'), ('OLDPWD', '/home/zephyrr1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1667'), ('SYSTEMD_EXEC_PID', '1989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20156'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zephyrr1'), ('JOURNAL_STREAM', '8:24414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zephyrr1'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zephyrr1:@/tmp/.ICE-unix/1794,unix/zephyrr1:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', 'b1503b1b23c54be98576e7ada0ad2666'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OKKRE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:152b9bc1-29a3-457c-83bf-32e58539c19e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib/:'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', ':/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble')]), 'shell': False}
+[3.357569] (-) TimerEvent: {}
+[3.399965] (safety_monitor) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/safety_monitor_node.dir/src/safety_checker.cpp.o\x1b[0m\n'}
+[3.406562] (safety_monitor) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/safety_monitor_node.dir/src/safety_monitor_node.cpp.o\x1b[0m\n'}
+[3.440348] (rehab_robot_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.459414] (-) TimerEvent: {}
+[3.461009] (rehab_robot_control) StdoutLine: {'line': b'-- Generating done\n'}
+[3.474798] (rehab_robot_control) StdoutLine: {'line': b'-- Build files have been written to: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control\n'}
+[3.484616] (rehab_robot_control) CommandEnded: {'returncode': 0}
+[3.489097] (rehab_robot_control) JobProgress: {'identifier': 'rehab_robot_control', 'progress': 'build'}
+[3.489186] (rehab_robot_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control', '--', '-j2', '-l2'], 'cwd': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'zephyrr1'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zephyrr1'), ('OLDPWD', '/home/zephyrr1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1667'), ('SYSTEMD_EXEC_PID', '1989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20156'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zephyrr1'), ('JOURNAL_STREAM', '8:24414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zephyrr1'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zephyrr1:@/tmp/.ICE-unix/1794,unix/zephyrr1:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', 'b1503b1b23c54be98576e7ada0ad2666'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OKKRE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:152b9bc1-29a3-457c-83bf-32e58539c19e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib/:'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', ':/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble')]), 'shell': False}
+[3.538159] (rehab_robot_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/bowl_ball_dynamics.dir/src/bowl_ball_dynamics.cpp.o\x1b[0m\n'}
+[3.560106] (-) TimerEvent: {}
+[3.660562] (-) TimerEvent: {}
+[3.763456] (-) TimerEvent: {}
+[3.864151] (-) TimerEvent: {}
+[3.965038] (-) TimerEvent: {}
+[4.069133] (-) TimerEvent: {}
+[4.170403] (-) TimerEvent: {}
+[4.271630] (-) TimerEvent: {}
+[4.372563] (-) TimerEvent: {}
+[4.476569] (-) TimerEvent: {}
+[4.578072] (-) TimerEvent: {}
+[4.681481] (-) TimerEvent: {}
+[4.783708] (-) TimerEvent: {}
+[4.884986] (-) TimerEvent: {}
+[4.988138] (-) TimerEvent: {}
+[5.089107] (-) TimerEvent: {}
+[5.190897] (-) TimerEvent: {}
+[5.297730] (-) TimerEvent: {}
+[5.407061] (-) TimerEvent: {}
+[5.507740] (-) TimerEvent: {}
+[5.608690] (-) TimerEvent: {}
+[5.711356] (-) TimerEvent: {}
+[5.812329] (-) TimerEvent: {}
+[5.914335] (-) TimerEvent: {}
+[6.015287] (-) TimerEvent: {}
+[6.115958] (-) TimerEvent: {}
+[6.218286] (-) TimerEvent: {}
+[6.319334] (-) TimerEvent: {}
+[6.420288] (-) TimerEvent: {}
+[6.522322] (-) TimerEvent: {}
+[6.635346] (-) TimerEvent: {}
+[6.735958] (-) TimerEvent: {}
+[6.840476] (-) TimerEvent: {}
+[6.951066] (-) TimerEvent: {}
+[7.056400] (-) TimerEvent: {}
+[7.159424] (-) TimerEvent: {}
+[7.260230] (-) TimerEvent: {}
+[7.366249] (-) TimerEvent: {}
+[7.468369] (-) TimerEvent: {}
+[7.572132] (-) TimerEvent: {}
+[7.673084] (-) TimerEvent: {}
+[7.774221] (-) TimerEvent: {}
+[7.877647] (-) TimerEvent: {}
+[7.979460] (-) TimerEvent: {}
+[8.082338] (-) TimerEvent: {}
+[8.182869] (-) TimerEvent: {}
+[8.284066] (-) TimerEvent: {}
+[8.386976] (-) TimerEvent: {}
+[8.487987] (-) TimerEvent: {}
+[8.588423] (-) TimerEvent: {}
+[8.689528] (-) TimerEvent: {}
+[8.790153] (-) TimerEvent: {}
+[8.891029] (-) TimerEvent: {}
+[8.993715] (-) TimerEvent: {}
+[9.094854] (-) TimerEvent: {}
+[9.196169] (-) TimerEvent: {}
+[9.298193] (-) TimerEvent: {}
+[9.400839] (-) TimerEvent: {}
+[9.501803] (-) TimerEvent: {}
+[9.602210] (-) TimerEvent: {}
+[9.661373] (rehab_robot_control) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libbowl_ball_dynamics.so\x1b[0m\n'}
+[9.703010] (-) TimerEvent: {}
+[9.804743] (-) TimerEvent: {}
+[9.884061] (rehab_robot_control) StdoutLine: {'line': b'[ 50%] Built target bowl_ball_dynamics\n'}
+[9.905137] (-) TimerEvent: {}
+[9.906825] (rehab_robot_control) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/robot_control_node.dir/src/robot_control_node.cpp.o\x1b[0m\n'}
+[10.005293] (-) TimerEvent: {}
+[10.105655] (-) TimerEvent: {}
+[10.206536] (-) TimerEvent: {}
+[10.308331] (-) TimerEvent: {}
+[10.409373] (-) TimerEvent: {}
+[10.510187] (-) TimerEvent: {}
+[10.613470] (-) TimerEvent: {}
+[10.715003] (-) TimerEvent: {}
+[10.815667] (-) TimerEvent: {}
+[10.916617] (-) TimerEvent: {}
+[11.017982] (-) TimerEvent: {}
+[11.118718] (-) TimerEvent: {}
+[11.220142] (-) TimerEvent: {}
+[11.323996] (-) TimerEvent: {}
+[11.425406] (-) TimerEvent: {}
+[11.526274] (-) TimerEvent: {}
+[11.627197] (-) TimerEvent: {}
+[11.727865] (-) TimerEvent: {}
+[11.829377] (-) TimerEvent: {}
+[11.930896] (-) TimerEvent: {}
+[12.033361] (-) TimerEvent: {}
+[12.134452] (-) TimerEvent: {}
+[12.235835] (-) TimerEvent: {}
+[12.336655] (-) TimerEvent: {}
+[12.438193] (-) TimerEvent: {}
+[12.541888] (-) TimerEvent: {}
+[12.642887] (-) TimerEvent: {}
+[12.743639] (-) TimerEvent: {}
+[12.844342] (-) TimerEvent: {}
+[12.945415] (-) TimerEvent: {}
+[13.046890] (-) TimerEvent: {}
+[13.147564] (-) TimerEvent: {}
+[13.250373] (-) TimerEvent: {}
+[13.351677] (-) TimerEvent: {}
+[13.452722] (-) TimerEvent: {}
+[13.553630] (-) TimerEvent: {}
+[13.654239] (-) TimerEvent: {}
+[13.755288] (-) TimerEvent: {}
+[13.858393] (-) TimerEvent: {}
+[13.959289] (-) TimerEvent: {}
+[14.060425] (-) TimerEvent: {}
+[14.161558] (-) TimerEvent: {}
+[14.263197] (-) TimerEvent: {}
+[14.364049] (-) TimerEvent: {}
+[14.466537] (-) TimerEvent: {}
+[14.567576] (-) TimerEvent: {}
+[14.668854] (-) TimerEvent: {}
+[14.769968] (-) TimerEvent: {}
+[14.871186] (-) TimerEvent: {}
+[14.971843] (-) TimerEvent: {}
+[15.075068] (-) TimerEvent: {}
+[15.176170] (-) TimerEvent: {}
+[15.278673] (-) TimerEvent: {}
+[15.380576] (-) TimerEvent: {}
+[15.491088] (-) TimerEvent: {}
+[15.592250] (-) TimerEvent: {}
+[15.693164] (-) TimerEvent: {}
+[15.793820] (-) TimerEvent: {}
+[15.894794] (-) TimerEvent: {}
+[16.011334] (-) TimerEvent: {}
+[16.112646] (-) TimerEvent: {}
+[16.213575] (-) TimerEvent: {}
+[16.317789] (-) TimerEvent: {}
+[16.419085] (-) TimerEvent: {}
+[16.519852] (-) TimerEvent: {}
+[16.620406] (-) TimerEvent: {}
+[16.721054] (-) TimerEvent: {}
+[16.822441] (-) TimerEvent: {}
+[16.923429] (-) TimerEvent: {}
+[17.024196] (-) TimerEvent: {}
+[17.124072] (safety_monitor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable safety_monitor_node\x1b[0m\n'}
+[17.125934] (-) TimerEvent: {}
+[17.228409] (-) TimerEvent: {}
+[17.328981] (-) TimerEvent: {}
+[17.429714] (-) TimerEvent: {}
+[17.530868] (-) TimerEvent: {}
+[17.632370] (-) TimerEvent: {}
+[17.664052] (safety_monitor) StdoutLine: {'line': b'[100%] Built target safety_monitor_node\n'}
+[17.678858] (safety_monitor) CommandEnded: {'returncode': 0}
+[17.683513] (safety_monitor) JobProgress: {'identifier': 'safety_monitor', 'progress': 'install'}
+[17.683637] (safety_monitor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor'], 'cwd': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'zephyrr1'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zephyrr1'), ('OLDPWD', '/home/zephyrr1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1667'), ('SYSTEMD_EXEC_PID', '1989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20156'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zephyrr1'), ('JOURNAL_STREAM', '8:24414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zephyrr1'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zephyrr1:@/tmp/.ICE-unix/1794,unix/zephyrr1:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', 'b1503b1b23c54be98576e7ada0ad2666'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OKKRE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:152b9bc1-29a3-457c-83bf-32e58539c19e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib/:'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', ':/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble')]), 'shell': False}
+[17.687760] (safety_monitor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.690263] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/lib/safety_monitor/safety_monitor_node\n'}
+[17.694051] (safety_monitor) StdoutLine: {'line': b'-- Set runtime path of "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/lib/safety_monitor/safety_monitor_node" to ""\n'}
+[17.694766] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/\n'}
+[17.695529] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor//safety_monitor.launch.py\n'}
+[17.696249] (safety_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/\n'}
+[17.699138] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor//safety_params.yaml\n'}
+[17.699639] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/ament_index/resource_index/package_run_dependencies/safety_monitor\n'}
+[17.699722] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/ament_index/resource_index/parent_prefix_path/safety_monitor\n'}
+[17.699885] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/environment/ament_prefix_path.sh\n'}
+[17.699956] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/environment/ament_prefix_path.dsv\n'}
+[17.700024] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/environment/path.sh\n'}
+[17.700090] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/environment/path.dsv\n'}
+[17.701804] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/local_setup.bash\n'}
+[17.702081] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/local_setup.sh\n'}
+[17.703102] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/local_setup.zsh\n'}
+[17.703906] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/local_setup.dsv\n'}
+[17.704034] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/package.dsv\n'}
+[17.705271] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/ament_index/resource_index/packages/safety_monitor\n'}
+[17.705426] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/cmake/safety_monitorConfig.cmake\n'}
+[17.705492] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/cmake/safety_monitorConfig-version.cmake\n'}
+[17.705649] (safety_monitor) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/package.xml\n'}
+[17.705778] (safety_monitor) CommandEnded: {'returncode': 0}
+[17.720240] (safety_monitor) JobEnded: {'identifier': 'safety_monitor', 'rc': 0}
+[17.732575] (-) TimerEvent: {}
+[17.833389] (-) TimerEvent: {}
+[17.935321] (-) TimerEvent: {}
+[18.035832] (-) TimerEvent: {}
+[18.137901] (-) TimerEvent: {}
+[18.239111] (-) TimerEvent: {}
+[18.342068] (-) TimerEvent: {}
+[18.443414] (-) TimerEvent: {}
+[18.558943] (-) TimerEvent: {}
+[18.668182] (-) TimerEvent: {}
+[18.775843] (-) TimerEvent: {}
+[18.880605] (-) TimerEvent: {}
+[18.986463] (-) TimerEvent: {}
+[19.094756] (-) TimerEvent: {}
+[19.205230] (-) TimerEvent: {}
+[19.313250] (-) TimerEvent: {}
+[19.416522] (-) TimerEvent: {}
+[19.517922] (-) TimerEvent: {}
+[19.622273] (-) TimerEvent: {}
+[19.727007] (-) TimerEvent: {}
+[19.828646] (-) TimerEvent: {}
+[19.930007] (-) TimerEvent: {}
+[20.030509] (-) TimerEvent: {}
+[20.139019] (-) TimerEvent: {}
+[20.250363] (-) TimerEvent: {}
+[20.359995] (-) TimerEvent: {}
+[20.469155] (-) TimerEvent: {}
+[20.575723] (-) TimerEvent: {}
+[20.682634] (-) TimerEvent: {}
+[20.783143] (-) TimerEvent: {}
+[20.888965] (-) TimerEvent: {}
+[20.993563] (-) TimerEvent: {}
+[21.108186] (-) TimerEvent: {}
+[21.213547] (-) TimerEvent: {}
+[21.318364] (-) TimerEvent: {}
+[21.432115] (-) TimerEvent: {}
+[21.539768] (-) TimerEvent: {}
+[21.646948] (-) TimerEvent: {}
+[21.753757] (-) TimerEvent: {}
+[21.864526] (-) TimerEvent: {}
+[21.973136] (-) TimerEvent: {}
+[22.080805] (-) TimerEvent: {}
+[22.183863] (-) TimerEvent: {}
+[22.295759] (-) TimerEvent: {}
+[22.403142] (-) TimerEvent: {}
+[22.503844] (-) TimerEvent: {}
+[22.617987] (-) TimerEvent: {}
+[22.725182] (-) TimerEvent: {}
+[22.833181] (-) TimerEvent: {}
+[22.940156] (-) TimerEvent: {}
+[23.043140] (-) TimerEvent: {}
+[23.157662] (-) TimerEvent: {}
+[23.263036] (-) TimerEvent: {}
+[23.370807] (-) TimerEvent: {}
+[23.478294] (-) TimerEvent: {}
+[23.580958] (-) TimerEvent: {}
+[23.692338] (-) TimerEvent: {}
+[23.800266] (-) TimerEvent: {}
+[23.908021] (-) TimerEvent: {}
+[24.009758] (-) TimerEvent: {}
+[24.123556] (-) TimerEvent: {}
+[24.230833] (-) TimerEvent: {}
+[24.333125] (-) TimerEvent: {}
+[24.433788] (-) TimerEvent: {}
+[24.534362] (-) TimerEvent: {}
+[24.635430] (-) TimerEvent: {}
+[24.736594] (-) TimerEvent: {}
+[24.846689] (-) TimerEvent: {}
+[24.958381] (-) TimerEvent: {}
+[25.064818] (-) TimerEvent: {}
+[25.165461] (-) TimerEvent: {}
+[25.273575] (-) TimerEvent: {}
+[25.390396] (-) TimerEvent: {}
+[25.490931] (-) TimerEvent: {}
+[25.591898] (-) TimerEvent: {}
+[25.701276] (-) TimerEvent: {}
+[25.806824] (-) TimerEvent: {}
+[25.907823] (-) TimerEvent: {}
+[26.009532] (-) TimerEvent: {}
+[26.119278] (-) TimerEvent: {}
+[26.223801] (-) TimerEvent: {}
+[26.336898] (-) TimerEvent: {}
+[26.438278] (-) TimerEvent: {}
+[26.541689] (-) TimerEvent: {}
+[26.642686] (-) TimerEvent: {}
+[26.743456] (-) TimerEvent: {}
+[26.844657] (-) TimerEvent: {}
+[26.945515] (-) TimerEvent: {}
+[27.046099] (-) TimerEvent: {}
+[27.147406] (-) TimerEvent: {}
+[27.248068] (-) TimerEvent: {}
+[27.350382] (-) TimerEvent: {}
+[27.451486] (-) TimerEvent: {}
+[27.557413] (-) TimerEvent: {}
+[27.659986] (-) TimerEvent: {}
+[27.762325] (-) TimerEvent: {}
+[27.863291] (-) TimerEvent: {}
+[27.964321] (-) TimerEvent: {}
+[28.067069] (-) TimerEvent: {}
+[28.167838] (-) TimerEvent: {}
+[28.273722] (-) TimerEvent: {}
+[28.374949] (-) TimerEvent: {}
+[28.483019] (-) TimerEvent: {}
+[28.590385] (-) TimerEvent: {}
+[28.697679] (-) TimerEvent: {}
+[28.807852] (-) TimerEvent: {}
+[28.910784] (-) TimerEvent: {}
+[29.025274] (-) TimerEvent: {}
+[29.125941] (-) TimerEvent: {}
+[29.227288] (-) TimerEvent: {}
+[29.335252] (-) TimerEvent: {}
+[29.369754] (rehab_robot_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_control_node\x1b[0m\n'}
+[29.437413] (-) TimerEvent: {}
+[29.531857] (rehab_robot_control) StdoutLine: {'line': b'[100%] Built target robot_control_node\n'}
+[29.537617] (-) TimerEvent: {}
+[29.539761] (rehab_robot_control) CommandEnded: {'returncode': 0}
+[29.540820] (rehab_robot_control) JobProgress: {'identifier': 'rehab_robot_control', 'progress': 'install'}
+[29.544058] (rehab_robot_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control'], 'cwd': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'zephyrr1'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zephyrr1'), ('OLDPWD', '/home/zephyrr1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1667'), ('SYSTEMD_EXEC_PID', '1989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20156'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zephyrr1'), ('JOURNAL_STREAM', '8:24414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zephyrr1'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zephyrr1:@/tmp/.ICE-unix/1794,unix/zephyrr1:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', 'b1503b1b23c54be98576e7ada0ad2666'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OKKRE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:152b9bc1-29a3-457c-83bf-32e58539c19e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib/:'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', ':/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble')]), 'shell': False}
+[29.548400] (rehab_robot_control) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[29.549138] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib/rehab_robot_control/robot_control_node\n'}
+[29.552173] (rehab_robot_control) StdoutLine: {'line': b'-- Set runtime path of "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib/rehab_robot_control/robot_control_node" to ""\n'}
+[29.552393] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib/libbowl_ball_dynamics.so\n'}
+[29.553483] (rehab_robot_control) StdoutLine: {'line': b'-- Set runtime path of "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib/libbowl_ball_dynamics.so" to ""\n'}
+[29.553609] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/include/rehab_robot_control\n'}
+[29.554137] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/include/rehab_robot_control/rehab_robot_control\n'}
+[29.554219] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/include/rehab_robot_control/rehab_robot_control/bowl_ball_dynamics.hpp\n'}
+[29.554751] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/\n'}
+[29.554968] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control//control.launch.py\n'}
+[29.555173] (rehab_robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/\n'}
+[29.556857] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control//control_params.yaml\n'}
+[29.559193] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/environment/library_path.sh\n'}
+[29.559804] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/environment/library_path.dsv\n'}
+[29.560445] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/ament_index/resource_index/package_run_dependencies/rehab_robot_control\n'}
+[29.561245] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/ament_index/resource_index/parent_prefix_path/rehab_robot_control\n'}
+[29.562074] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/environment/ament_prefix_path.sh\n'}
+[29.562613] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/environment/ament_prefix_path.dsv\n'}
+[29.562804] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/environment/path.sh\n'}
+[29.562836] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/environment/path.dsv\n'}
+[29.563494] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/local_setup.bash\n'}
+[29.565727] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/local_setup.sh\n'}
+[29.565835] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/local_setup.zsh\n'}
+[29.566740] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/local_setup.dsv\n'}
+[29.567682] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/package.dsv\n'}
+[29.568287] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/ament_index/resource_index/packages/rehab_robot_control\n'}
+[29.568929] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.569676] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.569783] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.570150] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/cmake/rehab_robot_controlConfig.cmake\n'}
+[29.570728] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/cmake/rehab_robot_controlConfig-version.cmake\n'}
+[29.572907] (rehab_robot_control) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/package.xml\n'}
+[29.573817] (rehab_robot_control) CommandEnded: {'returncode': 0}
+[29.590264] (rehab_robot_control) JobEnded: {'identifier': 'rehab_robot_control', 'rc': 0}
+[29.591103] (simulation_integration_test) JobStarted: {'identifier': 'simulation_integration_test'}
+[29.609033] (simulation_integration_test) JobProgress: {'identifier': 'simulation_integration_test', 'progress': 'cmake'}
+[29.611581] (simulation_integration_test) Command: {'cmd': ['/usr/bin/cmake', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/simulation_integration_test', '-DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test'], 'cwd': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'zephyrr1'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zephyrr1'), ('OLDPWD', '/home/zephyrr1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1667'), ('SYSTEMD_EXEC_PID', '1989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20156'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zephyrr1'), ('JOURNAL_STREAM', '8:24414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zephyrr1'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zephyrr1:@/tmp/.ICE-unix/1794,unix/zephyrr1:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', 'b1503b1b23c54be98576e7ada0ad2666'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OKKRE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:152b9bc1-29a3-457c-83bf-32e58539c19e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib/:'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', ':/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:/opt/ros/humble')]), 'shell': False}
+[29.638280] (-) TimerEvent: {}
+[29.673633] (simulation_integration_test) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[29.719039] (simulation_integration_test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[29.730659] (simulation_integration_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[29.738993] (-) TimerEvent: {}
+[29.797306] (simulation_integration_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[29.800523] (simulation_integration_test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[29.801047] (simulation_integration_test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[29.802170] (simulation_integration_test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[29.806037] (simulation_integration_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[29.839123] (-) TimerEvent: {}
+[29.869235] (simulation_integration_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[29.872401] (simulation_integration_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[29.872757] (simulation_integration_test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[29.873570] (simulation_integration_test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[29.880414] (simulation_integration_test) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[29.939394] (-) TimerEvent: {}
+[30.017707] (simulation_integration_test) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[30.039547] (-) TimerEvent: {}
+[30.140226] (-) TimerEvent: {}
+[30.153209] (simulation_integration_test) StdoutLine: {'line': b'-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[30.155103] (simulation_integration_test) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[30.211491] (simulation_integration_test) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[30.217035] (simulation_integration_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[30.230607] (simulation_integration_test) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[30.241572] (-) TimerEvent: {}
+[30.248774] (simulation_integration_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[30.265475] (simulation_integration_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[30.352407] (-) TimerEvent: {}
+[30.367464] (simulation_integration_test) StdoutLine: {'line': b'-- Configuring done\n'}
+[30.369192] (simulation_integration_test) StdoutLine: {'line': b'-- Generating done\n'}
+[30.372366] (simulation_integration_test) StdoutLine: {'line': b'-- Build files have been written to: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test\n'}
+[30.378659] (simulation_integration_test) CommandEnded: {'returncode': 0}
+[30.379240] (simulation_integration_test) JobProgress: {'identifier': 'simulation_integration_test', 'progress': 'build'}
+[30.379421] (simulation_integration_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test', '--', '-j2', '-l2'], 'cwd': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'zephyrr1'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zephyrr1'), ('OLDPWD', '/home/zephyrr1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1667'), ('SYSTEMD_EXEC_PID', '1989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20156'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zephyrr1'), ('JOURNAL_STREAM', '8:24414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zephyrr1'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zephyrr1:@/tmp/.ICE-unix/1794,unix/zephyrr1:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', 'b1503b1b23c54be98576e7ada0ad2666'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OKKRE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:152b9bc1-29a3-457c-83bf-32e58539c19e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib/:'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', ':/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:/opt/ros/humble')]), 'shell': False}
+[30.414778] (simulation_integration_test) CommandEnded: {'returncode': 0}
+[30.415418] (simulation_integration_test) JobProgress: {'identifier': 'simulation_integration_test', 'progress': 'install'}
+[30.415767] (simulation_integration_test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test'], 'cwd': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'zephyrr1'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zephyrr1'), ('OLDPWD', '/home/zephyrr1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1667'), ('SYSTEMD_EXEC_PID', '1989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20156'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zephyrr1'), ('JOURNAL_STREAM', '8:24414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zephyrr1'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zephyrr1:@/tmp/.ICE-unix/1794,unix/zephyrr1:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', 'b1503b1b23c54be98576e7ada0ad2666'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OKKRE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:152b9bc1-29a3-457c-83bf-32e58539c19e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib/:'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', ':/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:/opt/ros/humble')]), 'shell': False}
+[30.422682] (simulation_integration_test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.424121] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/lib/simulation_integration_test/test_teleop_node.py\n'}
+[30.425373] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test\n'}
+[30.427058] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/simulation_integration.launch.py\n'}
+[30.428065] (simulation_integration_test) StdoutLine: {'line': b'-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test\n'}
+[30.428178] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/integration_params.yaml\n'}
+[30.430091] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/ament_index/resource_index/package_run_dependencies/simulation_integration_test\n'}
+[30.431029] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/ament_index/resource_index/parent_prefix_path/simulation_integration_test\n'}
+[30.431631] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/environment/ament_prefix_path.sh\n'}
+[30.435645] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/environment/ament_prefix_path.dsv\n'}
+[30.435772] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/environment/path.sh\n'}
+[30.435840] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/environment/path.dsv\n'}
+[30.435902] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/local_setup.bash\n'}
+[30.436017] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/local_setup.sh\n'}
+[30.436089] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/local_setup.zsh\n'}
+[30.436756] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/local_setup.dsv\n'}
+[30.436853] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/package.dsv\n'}
+[30.437227] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/ament_index/resource_index/packages/simulation_integration_test\n'}
+[30.437364] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/cmake/simulation_integration_testConfig.cmake\n'}
+[30.437588] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/cmake/simulation_integration_testConfig-version.cmake\n'}
+[30.438956] (simulation_integration_test) StdoutLine: {'line': b'-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/package.xml\n'}
+[30.441068] (simulation_integration_test) CommandEnded: {'returncode': 0}
+[30.452688] (-) TimerEvent: {}
+[30.457302] (simulation_integration_test) JobEnded: {'identifier': 'simulation_integration_test', 'rc': 0}
+[30.458104] (-) EventReactorShutdown: {}

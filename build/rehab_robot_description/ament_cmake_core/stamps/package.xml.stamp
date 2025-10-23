@@ -9,18 +9,23 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   
+  <!-- URDF相关依赖 -->
   <depend>urdf</depend>
   <depend>xacro</depend>
+  
+  <!-- Gazebo相关依赖 -->
   <depend>gazebo_ros</depend>
   <depend>gazebo_plugins</depend>
+  
+  <!-- ROS 2控制相关依赖 -->
+  <depend>ros2_control</depend>
+  <depend>ros2_controllers</depend>
+  
+  <!-- 其他必要依赖 -->
   <depend>robot_state_publisher</depend>
   <depend>joint_state_publisher</depend>
-  <depend>rviz2</depend>
-  <depend>controller_manager</depend>
-  <depend>hardware_interface</depend>
-  <depend>transmission_interface</depend>
-  <depend>joint_trajectory_controller</depend>
-  <depend>position_controllers</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
 
   <export>
     <build_type>ament_cmake</build_type>

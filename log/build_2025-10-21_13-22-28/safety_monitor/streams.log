@@ -1,0 +1,67 @@
+[0.031s] Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/safety_monitor -DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor
+[0.236s] -- The C compiler identification is GNU 11.4.0
+[0.473s] -- The CXX compiler identification is GNU 11.4.0
+[0.512s] -- Detecting C compiler ABI info
+[0.715s] -- Detecting C compiler ABI info - done
+[0.733s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.736s] -- Detecting C compile features
+[0.739s] -- Detecting C compile features - done
+[0.753s] -- Detecting CXX compiler ABI info
+[1.012s] -- Detecting CXX compiler ABI info - done
+[1.039s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.039s] -- Detecting CXX compile features
+[1.041s] -- Detecting CXX compile features - done
+[1.051s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.368s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.644s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.735s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.743s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.769s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.798s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.849s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.978s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.989s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.194s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.250s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.314s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.325s] -- Looking for pthread.h
+[2.491s] -- Looking for pthread.h - found
+[2.494s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.653s] -- Found Threads: TRUE  
+[2.775s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.849s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[2.989s] -- Configuring done
+[3.002s] -- Generating done
+[3.005s] -- Build files have been written to: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor
+[3.016s] Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/safety_monitor -DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor
+[3.017s] Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor -- -j2 -l2
+[3.068s] [ 33%] [32mBuilding CXX object CMakeFiles/safety_monitor_node.dir/src/safety_checker.cpp.o[0m
+[3.075s] [ 66%] [32mBuilding CXX object CMakeFiles/safety_monitor_node.dir/src/safety_monitor_node.cpp.o[0m
+[16.794s] [100%] [32m[1mLinking CXX executable safety_monitor_node[0m
+[17.333s] [100%] Built target safety_monitor_node
+[17.348s] Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor -- -j2 -l2
+[17.352s] Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor
+[17.356s] -- Install configuration: ""
+[17.359s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/lib/safety_monitor/safety_monitor_node
+[17.363s] -- Set runtime path of "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/lib/safety_monitor/safety_monitor_node" to ""
+[17.364s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/
+[17.364s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor//safety_monitor.launch.py
+[17.365s] -- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/
+[17.368s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor//safety_params.yaml
+[17.368s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/ament_index/resource_index/package_run_dependencies/safety_monitor
+[17.368s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/ament_index/resource_index/parent_prefix_path/safety_monitor
+[17.368s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/environment/ament_prefix_path.sh
+[17.368s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/environment/ament_prefix_path.dsv
+[17.368s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/environment/path.sh
+[17.370s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/environment/path.dsv
+[17.370s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/local_setup.bash
+[17.371s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/local_setup.sh
+[17.372s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/local_setup.zsh
+[17.372s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/local_setup.dsv
+[17.372s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/package.dsv
+[17.374s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/ament_index/resource_index/packages/safety_monitor
+[17.374s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/cmake/safety_monitorConfig.cmake
+[17.374s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/cmake/safety_monitorConfig-version.cmake
+[17.374s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/package.xml
+[17.374s] Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor

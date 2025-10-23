@@ -1,0 +1,51 @@
+[0.022s] Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test': AMENT_PREFIX_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/simulation_integration_test -DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test
+[0.083s] -- The C compiler identification is GNU 11.4.0
+[0.128s] -- The CXX compiler identification is GNU 11.4.0
+[0.140s] -- Detecting C compiler ABI info
+[0.206s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.210s] -- Detecting C compile features
+[0.211s] -- Detecting C compile features - done
+[0.215s] -- Detecting CXX compiler ABI info
+[0.278s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.289s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.427s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.562s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.564s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.621s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.626s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.640s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.658s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.674s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.777s] -- Configuring done
+[0.778s] -- Generating done
+[0.781s] -- Build files have been written to: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test
+[0.788s] Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test' returned '0': AMENT_PREFIX_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/simulation_integration_test -DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test
+[0.789s] Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test': AMENT_PREFIX_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test -- -j2 -l2
+[0.824s] Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test' returned '0': AMENT_PREFIX_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test -- -j2 -l2
+[0.825s] Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test': AMENT_PREFIX_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test
+[0.832s] -- Install configuration: ""
+[0.833s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/lib/simulation_integration_test/test_teleop_node.py
+[0.834s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test
+[0.836s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/simulation_integration.launch.py
+[0.837s] -- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test
+[0.837s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/integration_params.yaml
+[0.839s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/ament_index/resource_index/package_run_dependencies/simulation_integration_test
+[0.840s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/ament_index/resource_index/parent_prefix_path/simulation_integration_test
+[0.841s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/environment/ament_prefix_path.sh
+[0.845s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/environment/ament_prefix_path.dsv
+[0.845s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/environment/path.sh
+[0.845s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/environment/path.dsv
+[0.845s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/local_setup.bash
+[0.845s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/local_setup.sh
+[0.845s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/local_setup.zsh
+[0.846s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/local_setup.dsv
+[0.846s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/package.dsv
+[0.846s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/ament_index/resource_index/packages/simulation_integration_test
+[0.846s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/cmake/simulation_integration_testConfig.cmake
+[0.847s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/cmake/simulation_integration_testConfig-version.cmake
+[0.848s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test/share/simulation_integration_test/package.xml
+[0.850s] Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test' returned '0': AMENT_PREFIX_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test

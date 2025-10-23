@@ -1,0 +1,6 @@
+robot_control_node:
+  ros__parameters:
+    control_frequency: 100.0    # 控制频率 (Hz)
+    stiffness: 80.0             # 虚拟弹簧刚度系数
+    damping: 3.0                # 虚拟阻尼系数
+    bowl_radius: 0.15           # 虚拟碗半径 (米)

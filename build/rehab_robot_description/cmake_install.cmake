@@ -43,19 +43,15 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rehab_robot_description/launch" TYPE DIRECTORY FILES "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rehab_robot_description/urdf" TYPE FILE FILES "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description/urdf/minimal_robot.urdf")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rehab_robot_description/urdf" TYPE DIRECTORY FILES "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rehab_robot_description" TYPE DIRECTORY FILES "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rehab_robot_description/worlds" TYPE DIRECTORY FILES "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description/worlds/")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rehab_robot_description/config" TYPE DIRECTORY FILES "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rehab_robot_description" TYPE DIRECTORY FILES "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

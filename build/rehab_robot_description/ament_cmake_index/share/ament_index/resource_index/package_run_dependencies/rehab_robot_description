@@ -1,1 +1,1 @@
-urdf;xacro;gazebo_ros;gazebo_plugins;robot_state_publisher;joint_state_publisher;rviz2;controller_manager;hardware_interface;transmission_interface;joint_trajectory_controller;position_controllers
+urdf;xacro;gazebo_ros;gazebo_plugins;ros2_control;ros2_controllers;robot_state_publisher;joint_state_publisher;geometry_msgs;sensor_msgs

@@ -7,33 +7,6 @@
       <geometry>
         <cylinder length="0.1" radius="0.2"/>
       </geometry>
-      <material name="blue">
-        <color rgba="0 0 0.8 1.0"/>
-      </material>
-    </visual>
-    <collision>
-      <geometry>
-        <cylinder length="0.1" radius="0.2"/>
-      </geometry>
-    </collision>
-    <inertial>
-      <mass value="5.0"/>
-      <inertia ixx="0.1" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.1"/>
-    </inertial>
-  </link>
-
-  <!-- ================================================================= -->
-  <!-- 关键修复1：添加虚拟世界链接作为根链接 -->
-  <!-- ================================================================= -->
-  <link name="world"/>
-
-  <!-- 基础连杆 -->
-  <link name="base_link">
-    <visual>
-      <geometry>
-        <cylinder length="0.1" radius="0.2"/>
-      </geometry>
-      <!-- 关键修改：调整原点使圆柱底部接触地面 -->
       <origin xyz="0 0 0.05" rpy="0 0 0"/>
       <material name="blue">
         <color rgba="0 0 0.8 1.0"/>
@@ -43,7 +16,6 @@
       <geometry>
         <cylinder length="0.1" radius="0.2"/>
       </geometry>
-      <!-- 关键修改：碰撞体也需要相同偏移 -->
       <origin xyz="0 0 0.05" rpy="0 0 0"/>
     </collision>
     <inertial>
@@ -52,15 +24,6 @@
     </inertial>
   </link>
 
-  <!-- ================================================================= -->
-  <!-- 关键修复2：添加世界到基础连杆的固定关节 -->
-  <!-- ================================================================= -->
-  <joint name="world_to_base" type="fixed">
-    <parent link="world"/>
-    <child link="base_link"/>
-    <origin xyz="0 0 0" rpy="0 0 0"/>
-  </joint>
-  
   <!-- 关节1 -->
   <link name="link1">
     <visual>
@@ -119,11 +82,7 @@
     <limit lower="-2.0" upper="2.0" effort="30.0" velocity="2.0"/>
   </joint>
 
-  <!-- ================================================================= -->
   <!-- ros2_control 传输配置 -->
-  <!-- ================================================================= -->
-  
-  <!-- 关节1的传输配置 -->
   <transmission name="joint1_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="joint1">
@@ -135,7 +94,6 @@
     </actuator>
   </transmission>
 
-  <!-- 关节2的传输配置 -->
   <transmission name="joint2_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="joint2">
@@ -147,42 +105,26 @@
     </actuator>
   </transmission>
 
-  <!-- ================================================================= -->
-  <!-- Gazebo特定配置 - 关键修复：添加factory插件 -->
-  <!-- ================================================================= -->
-  
   <!-- Gazebo ROS控制插件 -->
   <gazebo>
     <plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control">
       <robotNamespace>/</robotNamespace>
       <controlPeriod>0.001</controlPeriod>
+      <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
     </plugin>
   </gazebo>
 
-  <!-- Gazebo ROS工厂插件（关键修复：提供spawn_entity服务） -->
-  <gazebo>
-    <plugin filename="libgazebo_ros_factory.so" name="gazebo_ros_factory"/>
-  </gazebo>
-
-  <!-- Gazebo材料配置 -->
+  <!-- Gazebo材质配置 -->
   <gazebo reference="base_link">
     <material>Gazebo/Blue</material>
-    <mu1>0.2</mu1>
-    <mu2>0.2</mu2>
-    <kp>1000000.0</kp>
-    <kd>1000.0</kd>
   </gazebo>
 
   <gazebo reference="link1">
     <material>Gazebo/Red</material>
-    <mu1>0.2</mu1>
-    <mu2>0.2</mu2>
   </gazebo>
 
   <gazebo reference="link2">
     <material>Gazebo/Green</material>
-    <mu1>0.2</mu1>
-    <mu2>0.2</mu2>
   </gazebo>
 
 </robot>
