@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target bowl_ball_dynamics[0m
+[ 50%] Built target bowl_ball_dynamics
+[ 75%] [32mBuilding CXX object CMakeFiles/robot_control_node.dir/src/robot_control_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable robot_control_node[0m
+[100%] Built target robot_control_node

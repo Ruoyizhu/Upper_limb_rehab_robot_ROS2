@@ -1,0 +1,1 @@
+Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/build/rehab_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description -DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/install/rehab_robot_description

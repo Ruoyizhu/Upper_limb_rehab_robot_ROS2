@@ -12,6 +12,7 @@
   <!-- 包的版本号，通常遵循语义化版本规范（Major.Minor.Patch）。0.0.0常用于初始开发阶段(@ref) -->
   <description>Core control algorithm for rehabilitation robot</description>
   <!-- 对包功能的简要描述。此描述有助于其他开发者理解包的用途[2,4](@ref) -->
+  <license>Apache-2.0</license>
   <maintainer email="you@example.com">Your Name</maintainer>
   <!-- 包的维护者信息。`email`属性为联系邮箱，标签内文本为维护者姓名。应替换为实际信息(@ref) -->
   <!-- <license>Apache-2.0</license>
@@ -34,6 +35,12 @@
   <!-- 标准消息包，包含基础数据类型如String、Float64等，是其他复杂消息的基础(@ref) -->
   <depend>tf2</depend>
   <!-- TF2库的核心功能，用于管理和转换坐标系(@ref) -->
+
+
+
+
+
+   
   <depend>tf2_ros</depend>
   <!-- TF2的ROS绑定，提供了与rclcpp集成的接口，如发布和监听坐标变换(@ref) -->
 

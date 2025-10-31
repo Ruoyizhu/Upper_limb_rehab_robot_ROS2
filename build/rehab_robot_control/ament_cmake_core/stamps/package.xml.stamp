@@ -1,46 +1,53 @@
 <?xml version="1.0"?>
-<!-- XML声明，指定该文件使用XML 1.0标准。必须是文件的第一行[6](@ref) -->
+<!-- XML声明，指定该文件使用XML 1.0标准。必须是文件的第一行(@ref) -->
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypeset="http://www.w3.org/2001/XMLSchema"?>
-<!-- 引用XML模式定义（XSD）文件，用于验证此package.xml的结构和语法是否符合ROS 2的package_format3规范[5](@ref) -->
+<!-- 引用XML模式定义（XSD）文件，用于验证此package.xml的结构和语法是否符合ROS 2的package_format3规范(@ref) -->
 <package format="3">
-  <!-- 根元素，定义一个ROS 2软件包。`format="3"`属性指定使用第三版包格式（当前最新和推荐版本）[2,5](@ref) -->
+  <!-- 根元素，定义一个ROS 2软件包。`format="3"`属性指定使用第三版包格式（当前最新和推荐版本）(@ref) -->
 
   <!-- ========== 包的基本元信息 ========== -->
   <name>rehab_robot_control</name>
-  <!-- 包的名称，在ROS 2工作空间中必须唯一。此名称必须与CMakeLists.txt中的project()命令保持一致[2,3](@ref) -->
+  <!-- 包的名称，在ROS 2工作空间中必须唯一。此名称必须与CMakeLists.txt中的project()命令保持一致(@ref) -->
   <version>0.0.0</version>
-  <!-- 包的版本号，通常遵循语义化版本规范（Major.Minor.Patch）。0.0.0常用于初始开发阶段[2,5](@ref) -->
+  <!-- 包的版本号，通常遵循语义化版本规范（Major.Minor.Patch）。0.0.0常用于初始开发阶段(@ref) -->
   <description>Core control algorithm for rehabilitation robot</description>
   <!-- 对包功能的简要描述。此描述有助于其他开发者理解包的用途[2,4](@ref) -->
-  <maintainer email="you@example.com">Your Name</maintainer>
-  <!-- 包的维护者信息。`email`属性为联系邮箱，标签内文本为维护者姓名。应替换为实际信息[2,5](@ref) -->
   <license>Apache-2.0</license>
-  <!-- 包的开源许可证。Apache-2.0是ROS 2社区常用且推荐的许可证[1,2](@ref) -->
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <!-- 包的维护者信息。`email`属性为联系邮箱，标签内文本为维护者姓名。应替换为实际信息(@ref) -->
+  <!-- <license>Apache-2.0</license>
+  包的开源许可证。Apache-2.0是ROS 2社区常用且推荐的许可证(@ref) -->
 
   <!-- ========== 构建工具依赖 ========== -->
   <buildtool_depend>ament_cmake</buildtool_depend>
-  <!-- 声明构建此包所需的工具。对于C++项目，`ament_cmake`是核心构建系统，提供了CMake的扩展功能[1,3](@ref) -->
+  <!-- 声明构建此包所需的工具。对于C++项目，`ament_cmake`是核心构建系统，提供了CMake的扩展功能(@ref) -->
 
   <!-- ========== 包的功能依赖 ========== -->
-  <!-- 以下依赖项是包在编译和运行时都需要的（等同于同时声明了<build_depend>和<exec_depend>）[3](@ref) -->
+  <!-- 以下依赖项是包在编译和运行时都需要的（等同于同时声明了<build_depend>和<exec_depend>）(@ref) -->
   <!-- ROS 2核心依赖 -->
   <depend>rclcpp</depend>
-  <!-- ROS 2的C++客户端库（rclcpp），是编写任何ROS 2节点的基础，提供节点、话题、服务等核心API[1,3](@ref) -->
+  <!-- ROS 2的C++客户端库（rclcpp），是编写任何ROS 2节点的基础，提供节点、话题、服务等核心API(@ref) -->
   <depend>sensor_msgs</depend>
-  <!-- 传感器消息包，提供了如JointState等标准消息类型，用于传输关节位置、速度、力矩等传感器数据[3](@ref) -->
+  <!-- 传感器消息包，提供了如JointState等标准消息类型，用于传输关节位置、速度、力矩等传感器数据(@ref) -->
   <depend>geometry_msgs</depend>
-  <!-- 几何消息包，提供了如Vector3、Pose等消息类型，常用于表示空间中的向量、坐标和姿态[3](@ref) -->
+  <!-- 几何消息包，提供了如Vector3、Pose等消息类型，常用于表示空间中的向量、坐标和姿态(@ref) -->
   <depend>std_msgs</depend>
-  <!-- 标准消息包，包含基础数据类型如String、Float64等，是其他复杂消息的基础[1,3](@ref) -->
+  <!-- 标准消息包，包含基础数据类型如String、Float64等，是其他复杂消息的基础(@ref) -->
   <depend>tf2</depend>
-  <!-- TF2库的核心功能，用于管理和转换坐标系[3](@ref) -->
+  <!-- TF2库的核心功能，用于管理和转换坐标系(@ref) -->
+
+
+
+
+
+   
   <depend>tf2_ros</depend>
-  <!-- TF2的ROS绑定，提供了与rclcpp集成的接口，如发布和监听坐标变换[3](@ref) -->
+  <!-- TF2的ROS绑定，提供了与rclcpp集成的接口，如发布和监听坐标变换(@ref) -->
 
   <!-- ========== 导出配置 ========== -->
   <export>
-    <!-- 导出（export）部分定义了包的元数据如何被其他依赖它的包使用[2,3](@ref) -->
+    <!-- 导出（export）部分定义了包的元数据如何被其他依赖它的包使用(@ref) -->
     <build_type>ament_cmake</build_type>
-    <!-- 声明此包的构建类型为`ament_cmake`。这确保了其他包能通过`find_package`正确找到并链接本包[1,3](@ref) -->
+    <!-- 声明此包的构建类型为`ament_cmake`。这确保了其他包能通过`find_package`正确找到并链接本包(@ref) -->
   </export>
 </package>

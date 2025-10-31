@@ -1,0 +1,124 @@
+[0.290s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ROS-TCP-Endpoint']
+[0.290s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ROS-TCP-Endpoint'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x721015713d90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x721015849210>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x721015849210>>)
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.516s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint) by extension 'ignore_ament_install'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint) by extensions ['colcon_pkg']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint) by extensions ['colcon_meta']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint) by extension 'ros'
+[0.529s] DEBUG:colcon.colcon_core.package_identification:Package 'ROS-TCP-Endpoint' with type 'ros.catkin' and name 'ros_tcp_endpoint'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_control) by extension 'ignore'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_control) by extension 'ignore_ament_install'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_control) by extensions ['colcon_pkg']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_control) by extension 'colcon_pkg'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_control) by extensions ['colcon_meta']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_control) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_control) by extensions ['ros']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_control) by extension 'ros'
+[0.532s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'rehab_robot_control'
+[0.532s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'rehab_robot_control': Error(s) in package 'rehab_robot_control/package.xml':
+The package node must contain at least one "license" tag
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_control) by extensions ['cmake', 'python']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_control) by extension 'cmake'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_control) by extension 'python'
+[0.536s] DEBUG:colcon.colcon_core.package_identification:Package 'rehab_robot_control' with type 'cmake' and name 'rehab_robot_control'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_description) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_description) by extension 'ignore_ament_install'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_description) by extensions ['colcon_pkg']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_description) by extension 'colcon_pkg'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_description) by extensions ['colcon_meta']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_description) by extension 'colcon_meta'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_description) by extensions ['ros']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(rehab_robot_description) by extension 'ros'
+[0.538s] DEBUG:colcon.colcon_core.package_identification:Package 'rehab_robot_description' with type 'ros.ament_cmake' and name 'rehab_robot_description'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(safety_monitor) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(safety_monitor) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(safety_monitor) by extension 'ignore_ament_install'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(safety_monitor) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(safety_monitor) by extension 'colcon_pkg'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(safety_monitor) by extensions ['colcon_meta']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(safety_monitor) by extension 'colcon_meta'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(safety_monitor) by extensions ['ros']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(safety_monitor) by extension 'ros'
+[0.540s] DEBUG:colcon.colcon_core.package_identification:Package 'safety_monitor' with type 'ros.ament_cmake' and name 'safety_monitor'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_integration_test) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_integration_test) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_integration_test) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_integration_test) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_integration_test) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_integration_test) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_integration_test) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_integration_test) by extensions ['ros']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_integration_test) by extension 'ros'
+[0.541s] DEBUG:colcon.colcon_core.package_identification:Package 'simulation_integration_test' with type 'ros.ament_cmake' and name 'simulation_integration_test'
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.541s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'ROS-TCP-Endpoint' in --packages-select
+[0.576s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rehab_robot_control' in 'rehab_robot_control'
+[0.576s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rehab_robot_description' in 'rehab_robot_description'
+[0.576s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros_tcp_endpoint' in 'ROS-TCP-Endpoint'
+[0.576s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'safety_monitor' in 'safety_monitor'
+[0.576s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'simulation_integration_test' in 'simulation_integration_test'
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.583s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 325 installed packages in /opt/ros/humble
+[0.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.615s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.616s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.616s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.616s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.616s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.616s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.621s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.621s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.622s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.647s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.653s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.654s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/install/local_setup.ps1'
+[0.655s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/install/_local_setup_util_ps1.py'
+[0.658s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/install/setup.ps1'
+[0.659s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/install/local_setup.sh'
+[0.660s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/install/_local_setup_util_sh.py'
+[0.661s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/install/setup.sh'
+[0.661s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/install/local_setup.bash'
+[0.662s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/install/setup.bash'
+[0.663s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/install/local_setup.zsh'
+[0.664s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/install/setup.zsh'

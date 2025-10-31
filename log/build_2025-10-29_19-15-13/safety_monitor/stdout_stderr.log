@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target safety_monitor_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/safety_monitor_node.dir/src/safety_monitor_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable safety_monitor_node[0m
+[100%] Built target safety_monitor_node
+-- Install configuration: ""
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/lib/safety_monitor/safety_monitor_node
+-- Set runtime path of "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/lib/safety_monitor/safety_monitor_node" to ""
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor//safety_monitor.launch.py
+-- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor//safety_params.yaml
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/ament_index/resource_index/package_run_dependencies/safety_monitor
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/ament_index/resource_index/parent_prefix_path/safety_monitor
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/environment/ament_prefix_path.sh
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/environment/ament_prefix_path.dsv
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/environment/path.sh
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/environment/path.dsv
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/local_setup.bash
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/local_setup.sh
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/local_setup.zsh
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/local_setup.dsv
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/package.dsv
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/ament_index/resource_index/packages/safety_monitor
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/cmake/safety_monitorConfig.cmake
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/cmake/safety_monitorConfig-version.cmake
+-- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor/share/safety_monitor/package.xml

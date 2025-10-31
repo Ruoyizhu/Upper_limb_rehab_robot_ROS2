@@ -1,0 +1,3 @@
+[0.011s] Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor -- -j2 -l2
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target safety_monitor_node[0m
+[0.080s] [100%] Built target safety_monitor_node

@@ -4,12 +4,8 @@
  * 
  * 该文件定义了BowlBallDynamics类，用于实现康复机器人训练中的虚拟碗-小球动力学模型。
  * 该模型通过模拟碗与球的物理交互，为患者提供触觉力反馈，用于上肢康复训练。
- * 
- * @author Your Name
- * @date 2025-10-23
- * @version 1.0
- * 
- * @copyright Copyright (c) 2025 康复机器人项目组
+ *  * 
+ * @copyright Copyright (c) 2025 ...
  */
 
 #ifndef REHAB_ROBOT_CONTROL__BOWL_BALL_DYNAMICS_HPP_
@@ -36,6 +32,7 @@ namespace rehab_robot_control
  * - 将虚拟力映射为关节力矩指令
  * 
  * @see 相关论文或文档链接（如有）
+ * 
  */
 class BowlBallDynamics
 {

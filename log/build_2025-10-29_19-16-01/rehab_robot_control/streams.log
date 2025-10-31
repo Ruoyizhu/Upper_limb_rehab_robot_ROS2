@@ -1,0 +1,39 @@
+[0.014s] Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control -- -j2 -l2
+[0.063s] [ 50%] Built target bowl_ball_dynamics
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target robot_control_node[0m
+[0.090s] [100%] Built target robot_control_node
+[0.114s] Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control -- -j2 -l2
+[0.117s] Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control
+[0.123s] -- Install configuration: "Release"
+[0.124s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib/rehab_robot_control/robot_control_node
+[0.124s] -- Set runtime path of "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib/rehab_robot_control/robot_control_node" to ""
+[0.124s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib/libbowl_ball_dynamics.so
+[0.124s] -- Set runtime path of "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib/libbowl_ball_dynamics.so" to ""
+[0.125s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/include/rehab_robot_control
+[0.125s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/include/rehab_robot_control/rehab_robot_control
+[0.125s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/include/rehab_robot_control/rehab_robot_control/bowl_ball_dynamics.hpp
+[0.125s] -- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/
+[0.126s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control//control.launch.py
+[0.126s] -- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/
+[0.127s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control//control_params.yaml
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/environment/library_path.sh
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/environment/library_path.dsv
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/ament_index/resource_index/package_run_dependencies/rehab_robot_control
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/ament_index/resource_index/parent_prefix_path/rehab_robot_control
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/environment/ament_prefix_path.sh
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/environment/ament_prefix_path.dsv
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/environment/path.sh
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/environment/path.dsv
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/local_setup.bash
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/local_setup.sh
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/local_setup.zsh
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/local_setup.dsv
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/package.dsv
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/ament_index/resource_index/packages/rehab_robot_control
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/cmake/ament_cmake_export_libraries-extras.cmake
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/cmake/rehab_robot_controlConfig.cmake
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/cmake/rehab_robot_controlConfig-version.cmake
+[0.131s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/package.xml
+[0.134s] Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control

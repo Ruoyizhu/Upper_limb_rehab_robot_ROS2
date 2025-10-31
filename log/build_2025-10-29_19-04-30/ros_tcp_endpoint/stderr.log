@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/ROS-TCP-Endpoint/src/ros_tcp_endpoint/main.py":
+  No such file or directory.
+
+[0m

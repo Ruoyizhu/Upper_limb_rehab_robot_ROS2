@@ -1,0 +1,302 @@
+[0.133s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.133s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73dcfd727d30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73dcfd8491b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73dcfd8491b0>>)
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.324s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint' with type 'ros.ament_cmake' and name 'ros_tcp_endpoint'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_control) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_control) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_control) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_control) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_control) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_control) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_control) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_control) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rehab_robot_control' with type 'ros.ament_cmake' and name 'rehab_robot_control'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_description) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_description) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_description) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_description) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_description) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_description) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_description) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_robot_description) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rehab_robot_description' with type 'ros.ament_cmake' and name 'rehab_robot_description'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_monitor) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_monitor) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_monitor) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_monitor) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_monitor) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_monitor) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_monitor) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_monitor) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_monitor) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/safety_monitor' with type 'ros.ament_cmake' and name 'safety_monitor'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_integration_test) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_integration_test) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_integration_test) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_integration_test) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_integration_test) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_integration_test) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_integration_test) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_integration_test) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_integration_test) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation_integration_test' with type 'ros.ament_cmake' and name 'simulation_integration_test'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(upper_-limb_-rehab_-robot_-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(upper_-limb_-rehab_-robot_-ros2) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(upper_-limb_-rehab_-robot_-ros2) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(upper_-limb_-rehab_-robot_-ros2) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(upper_-limb_-rehab_-robot_-ros2) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(upper_-limb_-rehab_-robot_-ros2) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(upper_-limb_-rehab_-robot_-ros2) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(upper_-limb_-rehab_-robot_-ros2) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(upper_-limb_-rehab_-robot_-ros2) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_-limb_-rehab_-robot_-ros2) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_-limb_-rehab_-robot_-ros2) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_-limb_-rehab_-robot_-ros2) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_-limb_-rehab_-robot_-ros2) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_-limb_-rehab_-robot_-ros2) by extension 'python_setup_py'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_limb_rehab_robot_-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_limb_rehab_robot_-ros2) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_limb_rehab_robot_-ros2) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_limb_rehab_robot_-ros2) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_limb_rehab_robot_-ros2) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_limb_rehab_robot_-ros2) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_limb_rehab_robot_-ros2) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_limb_rehab_robot_-ros2) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_limb_rehab_robot_-ros2) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_limb_rehab_robot_-ros2) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_limb_rehab_robot_-ros2) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_limb_rehab_robot_-ros2) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(upper_limb_rehab_robot_-ros2) by extensions ['python_setup_py']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(upper_limb_rehab_robot_-ros2) by extension 'python_setup_py'
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.387s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/install
+[0.389s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 325 installed packages in /opt/ros/humble
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_control' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_control' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.454s] DEBUG:colcon.colcon_core.verb:Building package 'rehab_robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control', 'merge_install': False, 'path': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_control', 'symlink_install': False, 'test_result_base': None}
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'rehab_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'rehab_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description', 'merge_install': False, 'path': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/ROS-TCP-Endpoint', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'safety_monitor' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'safety_monitor' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'safety_monitor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'safety_monitor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'safety_monitor' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'safety_monitor' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'safety_monitor' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'safety_monitor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'safety_monitor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'safety_monitor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor', 'merge_install': False, 'path': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/safety_monitor', 'symlink_install': False, 'test_result_base': None}
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'simulation_integration_test' build argument 'cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'simulation_integration_test' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'simulation_integration_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'simulation_integration_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'simulation_integration_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'simulation_integration_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'simulation_integration_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'simulation_integration_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'simulation_integration_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'simulation_integration_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/simulation_integration_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/simulation_integration_test', 'merge_install': False, 'path': '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/simulation_integration_test', 'symlink_install': False, 'test_result_base': None}
+[0.458s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.460s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_control' with build type 'ament_cmake'
+[0.461s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_control'
+[0.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.464s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.464s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.474s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description' with build type 'ament_cmake'
+[0.474s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description'
+[0.474s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_control -DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control
+[0.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description -DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description
+[2.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_control -DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control
+[2.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control -- -j2 -l2
+[3.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description -DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description
+[3.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description -- -j2 -l2
+[3.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description -- -j2 -l2
+[3.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description
+[3.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_robot_description)
+[3.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description
+[3.384s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description' for CMake module files
+[3.384s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description' for CMake config files
+[3.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_robot_description', 'cmake_prefix_path')
+[3.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/hook/cmake_prefix_path.ps1'
+[3.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/hook/cmake_prefix_path.dsv'
+[3.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/hook/cmake_prefix_path.sh'
+[3.386s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/bin'
+[3.386s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/lib/pkgconfig/rehab_robot_description.pc'
+[3.386s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/lib/python3.10/site-packages'
+[3.386s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/bin'
+[3.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/package.ps1'
+[3.387s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/package.dsv'
+[3.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/package.sh'
+[3.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/package.bash'
+[3.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/package.zsh'
+[3.389s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/colcon-core/packages/rehab_robot_description)
+[3.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_robot_description)
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description' for CMake module files
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description' for CMake config files
+[3.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_robot_description', 'cmake_prefix_path')
+[3.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/hook/cmake_prefix_path.ps1'
+[3.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/hook/cmake_prefix_path.dsv'
+[3.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/hook/cmake_prefix_path.sh'
+[3.392s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/bin'
+[3.392s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/lib/pkgconfig/rehab_robot_description.pc'
+[3.392s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/lib/python3.10/site-packages'
+[3.392s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/bin'
+[3.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/package.ps1'
+[3.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/package.dsv'
+[3.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/package.sh'
+[3.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/package.bash'
+[3.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/package.zsh'
+[3.395s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/colcon-core/packages/rehab_robot_description)
+[3.395s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/safety_monitor' with build type 'ament_cmake'
+[3.395s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/safety_monitor'
+[3.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/safety_monitor -DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor
+[4.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/safety_monitor -DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/safety_monitor
+[4.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/safety_monitor -- -j2 -l2
+[15.686s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[15.686s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[15.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_robot_control)
+[15.711s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control' for CMake module files
+[15.711s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control' for CMake config files
+[15.715s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/bin'
+[15.716s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib/pkgconfig/rehab_robot_control.pc'
+[15.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control -- -j2 -l2
+[15.716s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/lib/python3.10/site-packages'
+[15.716s] Level 1:colcon.colcon_core.environment:checking '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/bin'
+[15.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/package.ps1'
+[15.717s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/package.dsv'
+[15.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/package.sh'
+[15.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/package.bash'
+[15.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/rehab_robot_control/package.zsh'
+[15.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_control/share/colcon-core/packages/rehab_robot_control)
+[15.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[15.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.762s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.770s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.771s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.771s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.793s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.793s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/local_setup.ps1'
+[15.795s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/_local_setup_util_ps1.py'
+[15.798s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/setup.ps1'
+[15.801s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/local_setup.sh'
+[15.802s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/_local_setup_util_sh.py'
+[15.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/setup.sh'
+[15.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/local_setup.bash'
+[15.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/setup.bash'
+[15.806s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/local_setup.zsh'
+[15.807s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/setup.zsh'
