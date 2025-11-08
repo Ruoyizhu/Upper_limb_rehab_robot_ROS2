@@ -1,0 +1,138 @@
+[0.015s] Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description -DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description
+[0.120s] -- The C compiler identification is GNU 11.4.0
+[0.182s] -- The CXX compiler identification is GNU 11.4.0
+[0.188s] -- Detecting C compiler ABI info
+[0.271s] -- Detecting C compiler ABI info - done
+[0.284s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.284s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.284s] -- Detecting CXX compiler ABI info
+[0.421s] -- Detecting CXX compiler ABI info - done
+[0.436s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.436s] -- Detecting CXX compile features
+[0.439s] -- Detecting CXX compile features - done
+[0.439s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.612s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.744s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.797s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.799s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.822s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.827s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.834s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.845s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.860s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.905s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.907s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.946s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.070s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.074s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.085s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.089s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.096s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.105s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.112s] -- Looking for pthread.h
+[1.187s] -- Looking for pthread.h - found
+[1.187s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.254s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.261s] -- Found Threads: TRUE  
+[1.353s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.355s] -- Checking for module 'bullet>=2.82'
+[1.367s] --   Found bullet, version 3.05
+[1.456s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.503s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.532s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.567s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.594s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.599s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.605s] -- Searching for dependencies of ignition-math6
+[1.607s] -- Looking for OGRE...
+[1.608s] -- OGRE_PREFIX_WATCH changed.
+[1.613s] -- Checking for module 'OGRE'
+[1.624s] --   Found OGRE, version 1.9.0
+[1.653s] -- Found Ogre Ghadamon (1.9.0)
+[1.658s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.665s] -- Looking for OGRE_Paging...
+[1.670s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.670s] -- Looking for OGRE_Terrain...
+[1.673s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.673s] -- Looking for OGRE_Property...
+[1.676s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.676s] -- Looking for OGRE_RTShaderSystem...
+[1.680s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.681s] -- Looking for OGRE_Volume...
+[1.685s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.685s] -- Looking for OGRE_Overlay...
+[1.688s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.781s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.781s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.782s] -- Searching for dependencies of ignition-transport8
+[1.808s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.817s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.834s] -- Checking for module 'libzmq >= 4'
+[1.860s] --   Found libzmq , version 4.3.4
+[1.919s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.922s] -- Checking for module 'uuid'
+[1.935s] --   Found uuid, version 2.37.2
+[1.959s] -- Found UUID: TRUE  
+[1.960s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.960s] -- Searching for dependencies of ignition-msgs5
+[1.976s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.984s] -- Checking for module 'tinyxml2'
+[1.992s] --   Found tinyxml2, version 9.0.0
+[2.023s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.024s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.025s] -- Searching for dependencies of ignition-common3
+[2.026s] -- Looking for dlfcn.h - found
+[2.027s] -- Looking for libdl - found
+[2.029s] -- Found DL: TRUE  
+[2.044s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.048s] -- Searching for <ignition-common3> component [graphics]
+[2.048s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.048s] -- Searching for dependencies of ignition-common3-graphics
+[2.052s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.053s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.053s] -- Searching for dependencies of ignition-fuel_tools4
+[2.139s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.149s] -- Checking for module 'jsoncpp'
+[2.162s] --   Found jsoncpp, version 1.9.5
+[2.216s] -- Found JSONCPP: TRUE  
+[2.233s] -- Checking for module 'libzip'
+[2.268s] --   Found libzip, version 1.7.3
+[2.322s] -- Found ZIP: TRUE  
+[2.324s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.325s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.325s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.328s] -- Gazebo version: 11.10
+[2.329s] -- Checking for module 'tbb'
+[2.346s] --   Found tbb, version 2021.5.0
+[2.464s] -- Configuring done
+[2.466s] -- Generating done
+[2.470s] -- Build files have been written to: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description
+[2.489s] Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/src/rehab_robot_description -DCMAKE_INSTALL_PREFIX=/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description
+[2.495s] Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description -- -j2 -l2
+[2.541s] Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description -- -j2 -l2
+[2.549s] Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --install /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description
+[2.558s] -- Install configuration: ""
+[2.559s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/urdf/minimal_robot.urdf
+[2.561s] -- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description
+[2.561s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/display.launch.py
+[2.561s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/gazebo.launch.py
+[2.561s] -- Up-to-date: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description
+[2.561s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/minimal.rviz​
+[2.563s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/controllers.yaml
+[2.564s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/ament_index/resource_index/package_run_dependencies/rehab_robot_description
+[2.564s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/ament_index/resource_index/parent_prefix_path/rehab_robot_description
+[2.564s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/environment/ament_prefix_path.sh
+[2.564s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/environment/ament_prefix_path.dsv
+[2.564s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/environment/path.sh
+[2.565s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/environment/path.dsv
+[2.565s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/local_setup.bash
+[2.569s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/local_setup.sh
+[2.569s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/local_setup.zsh
+[2.569s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/local_setup.dsv
+[2.569s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/package.dsv
+[2.569s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/ament_index/resource_index/packages/rehab_robot_description
+[2.569s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/cmake/rehab_robot_descriptionConfig.cmake
+[2.569s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/cmake/rehab_robot_descriptionConfig-version.cmake
+[2.569s] -- Installing: /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/rehab_robot_description/share/rehab_robot_description/package.xml
+[2.571s] Invoked command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --install /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_description

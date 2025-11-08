@@ -1,6 +1,0 @@
-[0.016s] Invoking command in '/home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zephyrr1/Upper_Limb_Rehabilitation_Robot_ws/build/rehab_robot_control -- -j2 -l2
-[0.057s] [35m[1mConsolidate compiler generated dependencies of target bowl_ball_dynamics[0m
-[0.075s] [ 50%] Built target bowl_ball_dynamics
-[0.114s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_control_node.dir/src/robot_control_node.cpp.o[0m
-[20.772s] [100%] [32m[1mLinking CXX executable robot_control_node[0m
-[20.971s] [100%] Built target robot_control_node

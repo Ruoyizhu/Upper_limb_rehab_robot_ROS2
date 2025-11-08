@@ -14,7 +14,7 @@ using namespace std::chrono_literals;         // 允许使用时间字面量（�
  * 
  * 该节点是康复机器人系统的核心安全组件，负责实时监控机器人状态，
  * 在检测到异常（如超限、通信中断等）时自动触发紧急停止机制。
- * 基于ROS2框架实现，采用参数化配置、定时监控和多路通信机制[1,2](@ref)。
+ * 基于ROS2框架实现，采用参数化配置、定时监控和多路通信机制。
  */
 class SafetyMonitorNode : public rclcpp::Node
 {

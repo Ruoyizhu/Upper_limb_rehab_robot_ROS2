@@ -1,7 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000371] (-) JobUnselected: {'identifier': 'rehab_robot_control'}
-[0.000393] (-) JobUnselected: {'identifier': 'rehab_robot_description'}
-[0.000402] (-) JobUnselected: {'identifier': 'ros_tcp_endpoint'}
-[0.000409] (-) JobUnselected: {'identifier': 'safety_monitor'}
-[0.000416] (-) JobUnselected: {'identifier': 'simulation_integration_test'}
-[0.000954] (-) EventReactorShutdown: {}

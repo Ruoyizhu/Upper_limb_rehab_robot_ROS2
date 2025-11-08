@@ -98,16 +98,57 @@ void BowlBallDynamics::setTrainingParameters(double stiffness, double damping, d
  * 
  * @warning 时间步长dt应保持稳定，避免数值积分误差积累
  */
+// 修复后的 updateDynamics 函数
 std::array<double, 2> BowlBallDynamics::updateDynamics(
-    const geometry_msgs::msg::Vector3 & patient_intent,
-    const std::array<double, 2> & joint_positions,
+    const geometry_msgs::msg::Vector3& patient_intent,
+    const std::array<double, 2>& joint_positions, 
     double dt)
 {
-    // =======================================================================
-    // TODO: 实现您的碗-小球核心算法
-    // 这里提供基础的算法框架，您需要根据具体的康复训练原理完善细节
-    // =======================================================================
-  
+    // 初始化返回值 - 防止未定义行为
+    std::array<double, 2> result = {0.0, 0.0};
+    
+    // 1. 使用传入的参数（消除未使用参数警告）
+    if (dt <= 0.0) {
+        // 无效时间间隔，返回默认值
+        std::cerr << "Warning: Invalid time interval dt = " << dt << std::endl;
+        return result; // 确保有返回语句
+    }
+    
+    // 2. 使用patient_intent参数
+    double intent_magnitude = std::sqrt(
+        patient_intent.x * patient_intent.x + 
+        patient_intent.y * patient_intent.y + 
+        patient_intent.z * patient_intent.z
+    );
+    
+    // 3. 使用joint_positions参数
+    double joint1_pos = joint_positions[0];
+    double joint2_pos = joint_positions[1];
+    
+    try {
+        // 4. 核心动力学计算逻辑（根据您的算法实现）
+        // 示例：基于关节位置和患者意图计算控制量
+        
+        // 计算位置误差或控制指令
+        double control_signal_1 = joint1_pos * intent_magnitude * dt;
+        double control_signal_2 = joint2_pos * intent_magnitude * dt;
+        
+        // 应用限制或滤波
+        const double max_control = 10.0;
+        control_signal_1 = std::max(-max_control, std::min(max_control, control_signal_1));
+        control_signal_2 = std::max(-max_control, std::min(max_control, control_signal_2));
+        
+        result[0] = control_signal_1;
+        result[1] = control_signal_2;
+        
+    } catch (const std::exception& e) {
+        // 异常处理，确保仍有返回值
+        std::cerr << "Error in updateDynamics: " << e.what() << std::endl;
+        result = {0.0, 0.0}; // 安全默认值
+    }
+    
+    // 5. 必须的返回语句
+    return result;
 }
 
 /**
