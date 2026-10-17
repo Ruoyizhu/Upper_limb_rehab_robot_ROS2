@@ -1,47 +1,136 @@
-# Upper-Limb Rehabilitation Robot
+# Upper-Limb Rehabilitation Robot — ROS 2
 
-A robotics project focused on upper-limb rehabilitation, developed as part of my engineering portfolio in mechatronics and robotics.
+A robotics and mechatronics project focused on the software development and integration of an upper-limb rehabilitation robot using ROS 2.
 
-## Overview
+This repository is part of my engineering portfolio in robotics, sensor integration, and robot software development. It documents the ROS 2 software workspace associated with the rehabilitation robot.
 
-This project explores the software development and integration involved in an upper-limb rehabilitation robot, with an emphasis on ROS 2 and robotic system development.
+## Project Overview
 
-## Objectives
+Upper-limb rehabilitation robots can support structured arm-motion training by combining mechanical systems, sensing, and robot software.
 
-- Develop a ROS 2-based software structure for a rehabilitation robotics system.
-- Explore the integration of software components in a robotic application.
-- Build practical experience relevant to robotics, mechatronics, and research-oriented engineering.
+The goal of this project is to develop and organize the software components needed for a ROS 2-based rehabilitation robot system.
+
+### Project Scope
+
+- ROS 2 workspace organization and package-based development.
+- Integration of robot software components within a common workspace.
+- Preparation for communication between sensing and robot-control components.
+- A foundation for further development, testing, and hardware integration.
+
+The exact capabilities available in the current version depend on the implemented ROS 2 packages and connected hardware.
+
+## Relationship to the Sensor Module
+
+The companion repository [`hand-fsr-sensor-visualization`](https://github.com/Ruoyizhu/hand-fsr-sensor-visualization) contains a hand force-sensing and visualization application developed as a sensor-acquisition module for this rehabilitation robot project.
+
+The sensor application currently provides a standalone Python GUI and serial-data acquisition functionality. ROS 2 integration should be treated as a separate integration task unless implemented and verified in the current system.
 
 ## Technology
 
 - **Middleware:** ROS 2
-- **Application area:** Rehabilitation robotics
-- **Development:** Robotic software integration
+- **Development:** ROS 2 workspace and package-based software development
+- **Related sensing module:** Python, PyQt6, NumPy, pyqtgraph, and pyserial
 
-## Getting Started
+The ROS 2 distribution and additional dependencies should be selected according to the package manifests and the target environment.
 
-Ensure that ROS 2 and the dependencies required by the project are installed.
+## Repository Structure
 
-Clone the repository:
-
-```bash
-git clone https://github.com/Ruoyizhu/upper-limb-rehabilitation-robot.git
-cd upper-limb-rehabilitation-robot
+```text
+upper-limb-rehabilitation-robot-ros2/
+├── src/          # ROS 2 source packages
+├── LICENSE
+└── README.md
 ```
 
-Build the workspace using the build system configured by the project. For a standard ROS 2 workspace using `colcon`:
+The repository may also contain generated build and runtime directories. These are not normally required in version control and should be regenerated locally.
+
+## Prerequisites
+
+Before building the workspace, install a ROS 2 distribution compatible with the packages in `src/`.
+
+Verify your installation:
 
 ```bash
-colcon build
+printenv ROS_DISTRO
+ros2 --help
+```
+
+If `ROS_DISTRO` is empty, source the setup script for your installed ROS 2 distribution.
+
+## Build
+
+From the repository root:
+
+```bash
+source /opt/ros/$ROS_DISTRO/setup.bash
+colcon build --symlink-install
 source install/setup.bash
 ```
 
-The exact launch commands depend on the available ROS 2 packages and launch files.
+If the workspace contains packages with additional system or Python dependencies, install those dependencies before building.
 
-## Status
+## Inspect Available Packages
 
-This repository is being organized for documentation and further development. Please check the source packages and their configuration files before running the system.
+List the packages discovered by the workspace:
 
-## Research Interests
+```bash
+colcon list
+```
 
-Rehabilitation robotics, ROS 2, mechatronic systems, and robotic software integration.
+After building, inspect the packages available to ROS 2:
+
+```bash
+ros2 pkg list
+```
+
+To inspect the nodes and launch files provided by an individual package:
+
+```bash
+ros2 pkg executables <package_name>
+ros2 launch <package_name> <launch_file>
+```
+
+Replace the placeholders with package names and launch files that actually exist in the repository.
+
+## Development and Validation
+
+A reproducible development workflow should include:
+
+1. Checking package manifests and dependencies.
+2. Building the workspace from a clean environment.
+3. Testing individual nodes and launch files.
+4. Validating message flow and component communication.
+5. Testing hardware interfaces separately before system-level integration.
+
+Actual hardware operation and rehabilitation functionality must be verified on the target system before being considered supported.
+
+## Current Status
+
+This repository is being organized as a public engineering portfolio project.
+
+For a reproducible release, the following information should be documented as it is verified:
+
+- Supported ROS 2 distribution and operating system.
+- Implemented packages and their responsibilities.
+- Available launch files and runtime commands.
+- Connected hardware and communication interfaces.
+- Simulation or hardware validation results.
+
+## Future Work
+
+Potential areas for further development include:
+
+- Documenting the robot software architecture and data flow.
+- Integrating sensor data with ROS 2 topics.
+- Adding automated tests and system-level validation.
+- Providing reproducible launch configurations and demonstration recordings.
+
+These items are development directions, not claims of completed functionality.
+
+## License
+
+See [LICENSE](LICENSE) for the applicable license and terms.
+
+## Related Project
+
+- [Hand FSR Sensor Visualization](https://github.com/Ruoyizhu/hand-fsr-sensor-visualization) — the companion hand force-sensor acquisition and visualization module.
