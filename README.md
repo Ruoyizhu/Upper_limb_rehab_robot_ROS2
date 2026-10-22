@@ -25,6 +25,30 @@ The companion repository [`hand-fsr-sensor-visualization`](https://github.com/Ru
 
 The sensor application currently provides a standalone Python GUI and serial-data acquisition functionality. ROS 2 integration should be treated as a separate integration task unless implemented and verified in the current system.
 
+## Demonstrations
+
+### ROS 2 Runtime and System Architecture
+
+The following images illustrate the project structure and ROS 2 software execution.
+
+![System Architecture](docs/images/architecture.png)
+
+![ROS 2 Process Overview](docs/images/ros2-process.png)
+
+![ROS 2 Runtime](docs/images/ros2-runtime.png)
+
+### Video Demonstrations
+
+**Patient Unity Interface**
+
+[Watch or download the demonstration video](https://github.com/Ruoyizhu/upper-limb-rehabilitation-robot-ros2/releases/download/demo-v1.0/patient-unity-interface-demo.mp4)
+
+**Sensor Data Acquisition Interface**
+
+[Watch or download the demonstration video](https://github.com/Ruoyizhu/upper-limb-rehabilitation-robot-ros2/releases/download/demo-v1.0/sensor-data-acquisition-demo.mp4)
+
+The videos are hosted as GitHub Release assets to keep large video files out of the source repository.
+
 ## Technology
 
 - **Middleware:** ROS 2
@@ -37,7 +61,15 @@ The ROS 2 distribution and additional dependencies should be selected according 
 
 ```text
 upper-limb-rehabilitation-robot-ros2/
-├── src/          # ROS 2 source packages
+├── docs/
+│   ├── images/
+│   │   ├── README.md
+│   │   ├── architecture.png
+│   │   ├── ros2-process.png
+│   │   └── ros2-runtime.png
+│   └── demos/
+│       └── README.md
+├── src/
 ├── LICENSE
 └── README.md
 ```
